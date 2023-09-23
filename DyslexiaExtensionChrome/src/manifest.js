@@ -26,6 +26,7 @@ export default defineManifest({
       css: ['styles.css'],
       js: ['src/content/index.js'],
       all_frames: true,
+      run_at: 'document_idle',
     },
   ],
   web_accessible_resources: [
