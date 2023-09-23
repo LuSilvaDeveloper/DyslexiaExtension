@@ -18,7 +18,7 @@
 
 }
 
-*, body, header, footer, a {
+* > * {
     background-color: aqua;
     font-family: 'OpenDyslexic', 'OpenDyslexic Bold', 'Arial', 'Comic Sans', 'Open Sans';
 }

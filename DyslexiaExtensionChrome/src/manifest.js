@@ -25,6 +25,7 @@ export default defineManifest({
       matches: ['http://*/*', 'https://*/*'],
       css: ['styles.css'],
       js: ['src/content/index.js'],
+      all_frames: true,
     },
   ],
   web_accessible_resources: [
