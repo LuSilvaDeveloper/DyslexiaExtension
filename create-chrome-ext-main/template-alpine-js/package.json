@@ -1,0 +1,30 @@
+{
+  "name": "chrome-extension-alpine-js",
+  "version": "0.0.0",
+  "author": "",
+  "description": "",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "alpine",
+    "alpinejs",
+    "vite",
+    "create-chrome-ext"
+  ],
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "alpinejs": "^3.10.2"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.12",
+    "vite": "^2.9.13"
+  }
+}
