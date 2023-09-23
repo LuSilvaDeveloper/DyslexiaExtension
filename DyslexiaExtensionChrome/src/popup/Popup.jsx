@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './Popup.css'
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 function App() {
   const [crx, setCrx] = useState('create-chrome-ext')
@@ -10,10 +12,7 @@ function App() {
 
       <h6>v 0.0.0</h6>
 
-      <a href="https://www.npmjs.com/package/create-chrome-ext" target="_blank">
-        Power by {crx}
-      </a>
-      
+      <Button variant="dark">hehehe</Button>
     </main>
   )
 }
