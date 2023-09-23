@@ -13,6 +13,7 @@ function App() {
       <a href="https://www.npmjs.com/package/create-chrome-ext" target="_blank">
         Power by {crx}
       </a>
+      
     </main>
   )
 }
